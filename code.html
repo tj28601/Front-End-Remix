@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Addaptive Remix - Code</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+
+            <div class="mb-4">
+                <div class="pb-2 mt-4 mb-3 border-bottom">
+                    <h3>#1 calculateProfit</h3>
+                </div>
+
+                <div class="alert" id="calculateProfit"></div>
+            </div>
+
+            <div class="mb-4">
+                <div class="pb-2 mt-4 mb-3 border-bottom">
+                    <h3>#2 getHeroMetrics</h3>
+                </div>
+
+                <div class="alert" id="getHeroMetrics"></div>
+                <pre id="getHeroMetricsResult"></pre>
+            </div>
+
+            <div class="mb-4">
+                <div class="pb-2 mt-4 mb-3 border-bottom">
+                    <h3>#3 toChartData</h3>
+                </div>
+
+                <p>
+                    If you see a working chart below here toChartData is probably working!
+                </p>
+
+                <div style="height: 600px">
+                    <canvas id="toChartData"></canvas>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <div class="pb-2 mt-4 mb-3 border-bottom">
+                    <h3>#4 filter</h3>
+                </div>
+
+                <div class="alert" id="filter"></div>
+                <pre id="filterResult"></pre>
+            </div>
+
+            <div class="mb-4">
+                <div class="pb-2 mt-4 mb-3 border-bottom">
+                    <h3>#5 doLoadingScreen</h3>
+                </div>
+
+                <div class="alert" id="doLoadingScreen"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js" integrity="sha256-oSgtFCCmHWRPQ/JmR4OoZ3Xke1Pw4v50uh6pLcu+fIc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js" integrity="sha256-VBLiveTKyUZMEzJd6z2mhfxIqz3ZATCuVMawPZGzIfA=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="code.js"></script>
+
+<script>
+$(document).ready(function(){
+
+    $.getJSON("api.json")
+    .then(response => {
+        const metric = new Metric(response);
+
+        // #1 calculateProfit
+        const noProfit = metric.data.filter(f => isNaN(f.profit));
+        if(noProfit.length){
+            $("#calculateProfit")
+                .html("1 or more data points have no profit. calculateProfit probably isn't working.")
+                .addClass("alert-danger");
+        }else{
+            $("#calculateProfit")
+                .html("All points have a profit! calculateProfit is probably working!")
+                .addClass("alert-success");
+        }
+
+
+        // #2 getHeroMetrics
+        const heroMetrics = metric.getHeroMetrics();
+        $("#getHeroMetricsResult").html("<code>" + JSON.stringify(heroMetrics) + "</code>");
+
+        const negativeOneOrNaNVal = Object.values(heroMetrics).filter(f => f == -1 || isNaN(f));
+        if(negativeOneOrNaNVal.length){
+            $("#getHeroMetrics")
+                .html("1 or more hero metrics is still -1 or NaN. getHeroMetrics isn't working.")
+                .addClass("alert-danger");
+        }else{
+          $("#getHeroMetrics")
+                .html("getHeroMetrics is returning values. getHeroMetrics might be working.")
+                .addClass("alert-success");
+        }
+
+        // #3 toChartData
+        const myLineChart = new Chart($("#toChartData"), {
+            type: 'line',
+            data: metric.toChartData(),
+            options: {
+                scales: {
+                    yAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Profit ($)'
+                        }
+                    }]
+                }
+            }
+        });
+
+
+        // #4 filter
+        const filterResult = metric.filter(point => this.reportDate === "2018-12-01");
+        if(filterResult == null){
+            $("#filter")
+                .html("filter is returning null. filter probably not working.")
+                .addClass("alert-danger");
+        }else if( !(filterResult instanceof Metric) ){
+            $("#filter")
+                .html("filter isn't returning a Metric (not fluent). filter probably not working.")
+                .addClass("alert-danger");
+        }else {
+            $("#filterResult").html("<code>" + JSON.stringify(filterResult.data, null, 4) + "</code>");
+            const notDecOne = filterResult.data.filter(f => f.reportDate != "2018-12-01");
+            if(notDecOne.length){
+                $("#filter")
+                    .html("filter returned a non-truthy point. filter probably not working.")
+                    .addClass("alert-danger");
+            }else{
+                $("#filter")
+                    .html("Looks like filter might be working...")
+                    .addClass("alert-success");
+            }
+        }
+
+        // #5 doLoadingScreen
+        const onDone = metric.doLoadingScreen();
+        if(!onDone || !onDone.then){
+          $("#doLoadingScreen")
+            .html("Result of doLoadingScreen not then'able. doLoadingScreen is probably not working.")
+            .addClass("alert-danger");
+        }else{
+          $("#doLoadingScreen")
+            .html("doLoadingScreen might be working")
+            .addClass("alert-success");
+        }
+
+    })
+    .catch(err => {
+        alert("getJSON failed? Check console.");
+        console.log(err);
+    });
+
+});
+</script>
+</body>
+</html>

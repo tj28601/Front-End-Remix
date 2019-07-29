@@ -1,0 +1,1087 @@
+[
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-03",
+        "revenue": 6436,
+        "totalCost": 9650,
+        "totalTables": 548
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-29",
+        "revenue": 6364,
+        "totalCost": 6897,
+        "totalTables": 530
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-19",
+        "revenue": 5189,
+        "totalCost": 7016,
+        "totalTables": 451
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-30",
+        "revenue": 11488,
+        "totalCost": 6394,
+        "totalTables": 517
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-02",
+        "revenue": 10657,
+        "totalCost": 7759,
+        "totalTables": 436
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-23",
+        "revenue": 13923,
+        "totalCost": 7395,
+        "totalTables": 482
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-18",
+        "revenue": 11279,
+        "totalCost": 6949,
+        "totalTables": 525
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-18",
+        "revenue": 14684,
+        "totalCost": 6254,
+        "totalTables": 528
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-08",
+        "revenue": 5634,
+        "totalCost": 7110,
+        "totalTables": 554
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-27",
+        "revenue": 13340,
+        "totalCost": 6843,
+        "totalTables": 594
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-17",
+        "revenue": 13062,
+        "totalCost": 8208,
+        "totalTables": 379
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-06",
+        "revenue": 9485,
+        "totalCost": 4991,
+        "totalTables": 550
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-13",
+        "revenue": 9100,
+        "totalCost": 8047,
+        "totalTables": 328
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-19",
+        "revenue": 6859,
+        "totalCost": 8092,
+        "totalTables": 447
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-01",
+        "revenue": 11175,
+        "totalCost": 5436,
+        "totalTables": 562
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-10",
+        "revenue": 5527,
+        "totalCost": 7173,
+        "totalTables": 384
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-15",
+        "revenue": 7908,
+        "totalCost": 4323,
+        "totalTables": 439
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-22",
+        "revenue": 11064,
+        "totalCost": 5544,
+        "totalTables": 337
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-19",
+        "revenue": 5211,
+        "totalCost": 5214,
+        "totalTables": 386
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-02",
+        "revenue": 11714,
+        "totalCost": 9126,
+        "totalTables": 405
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-14",
+        "revenue": 14316,
+        "totalCost": 8582,
+        "totalTables": 422
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-15",
+        "revenue": 6518,
+        "totalCost": 5748,
+        "totalTables": 595
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-23",
+        "revenue": 12238,
+        "totalCost": 9093,
+        "totalTables": 327
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-22",
+        "revenue": 8857,
+        "totalCost": 4781,
+        "totalTables": 427
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-10",
+        "revenue": 11532,
+        "totalCost": 8342,
+        "totalTables": 397
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-31",
+        "revenue": 12006,
+        "totalCost": 9405,
+        "totalTables": 510
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-15",
+        "revenue": 10750,
+        "totalCost": 6113,
+        "totalTables": 532
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-21",
+        "revenue": 13645,
+        "totalCost": 8618,
+        "totalTables": 571
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-01",
+        "revenue": 7120,
+        "totalCost": 7158,
+        "totalTables": 568
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-12",
+        "revenue": 13820,
+        "totalCost": 9741,
+        "totalTables": 370
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-24",
+        "revenue": 8700,
+        "totalCost": 6114,
+        "totalTables": 321
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-25",
+        "revenue": 9267,
+        "totalCost": 7896,
+        "totalTables": 439
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-07",
+        "revenue": 11291,
+        "totalCost": 9467,
+        "totalTables": 578
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-26",
+        "revenue": 5175,
+        "totalCost": 7244,
+        "totalTables": 463
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-11",
+        "revenue": 14821,
+        "totalCost": 9785,
+        "totalTables": 471
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-26",
+        "revenue": 7828,
+        "totalCost": 6324,
+        "totalTables": 469
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-01",
+        "revenue": 11541,
+        "totalCost": 4906,
+        "totalTables": 587
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-20",
+        "revenue": 12602,
+        "totalCost": 8650,
+        "totalTables": 399
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-04",
+        "revenue": 5162,
+        "totalCost": 4770,
+        "totalTables": 511
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-22",
+        "revenue": 5880,
+        "totalCost": 5920,
+        "totalTables": 535
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-26",
+        "revenue": 7619,
+        "totalCost": 9581,
+        "totalTables": 591
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-16",
+        "revenue": 9075,
+        "totalCost": 9101,
+        "totalTables": 430
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-21",
+        "revenue": 10201,
+        "totalCost": 5702,
+        "totalTables": 578
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-10",
+        "revenue": 5363,
+        "totalCost": 4314,
+        "totalTables": 417
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-14",
+        "revenue": 13875,
+        "totalCost": 8252,
+        "totalTables": 514
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-07",
+        "revenue": 14473,
+        "totalCost": 6995,
+        "totalTables": 484
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-16",
+        "revenue": 13940,
+        "totalCost": 6466,
+        "totalTables": 414
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-25",
+        "revenue": 13969,
+        "totalCost": 5825,
+        "totalTables": 511
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-17",
+        "revenue": 8213,
+        "totalCost": 5657,
+        "totalTables": 339
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-20",
+        "revenue": 14613,
+        "totalCost": 5246,
+        "totalTables": 462
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-17",
+        "revenue": 12819,
+        "totalCost": 8618,
+        "totalTables": 362
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-17",
+        "revenue": 7632,
+        "totalCost": 8877,
+        "totalTables": 390
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-13",
+        "revenue": 10429,
+        "totalCost": 4499,
+        "totalTables": 354
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-11",
+        "revenue": 11661,
+        "totalCost": 7047,
+        "totalTables": 548
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-07",
+        "revenue": 5465,
+        "totalCost": 9036,
+        "totalTables": 542
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-20",
+        "revenue": 13813,
+        "totalCost": 5929,
+        "totalTables": 333
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-02",
+        "revenue": 12116,
+        "totalCost": 4499,
+        "totalTables": 498
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-30",
+        "revenue": 6951,
+        "totalCost": 8701,
+        "totalTables": 493
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-03",
+        "revenue": 14319,
+        "totalCost": 5793,
+        "totalTables": 460
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-10",
+        "revenue": 6281,
+        "totalCost": 7170,
+        "totalTables": 518
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-01",
+        "revenue": 14074,
+        "totalCost": 7124,
+        "totalTables": 361
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-23",
+        "revenue": 10254,
+        "totalCost": 6940,
+        "totalTables": 530
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-17",
+        "revenue": 13436,
+        "totalCost": 6438,
+        "totalTables": 432
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-27",
+        "revenue": 9299,
+        "totalCost": 5686,
+        "totalTables": 380
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-21",
+        "revenue": 11636,
+        "totalCost": 8064,
+        "totalTables": 506
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-06",
+        "revenue": 8288,
+        "totalCost": 9840,
+        "totalTables": 495
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-04",
+        "revenue": 9182,
+        "totalCost": 7852,
+        "totalTables": 444
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-26",
+        "revenue": 5674,
+        "totalCost": 4505,
+        "totalTables": 535
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-04",
+        "revenue": 12477,
+        "totalCost": 9676,
+        "totalTables": 472
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-26",
+        "revenue": 10726,
+        "totalCost": 7501,
+        "totalTables": 324
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-09",
+        "revenue": 5060,
+        "totalCost": 5400,
+        "totalTables": 303
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-16",
+        "revenue": 13566,
+        "totalCost": 7573,
+        "totalTables": 585
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-08",
+        "revenue": 14759,
+        "totalCost": 6352,
+        "totalTables": 434
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-31",
+        "revenue": 7356,
+        "totalCost": 8982,
+        "totalTables": 463
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-11",
+        "revenue": 10404,
+        "totalCost": 5550,
+        "totalTables": 329
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-27",
+        "revenue": 14651,
+        "totalCost": 8671,
+        "totalTables": 399
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-14",
+        "revenue": 13302,
+        "totalCost": 8203,
+        "totalTables": 584
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-21",
+        "revenue": 6560,
+        "totalCost": 9118,
+        "totalTables": 421
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-08",
+        "revenue": 10906,
+        "totalCost": 6173,
+        "totalTables": 528
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-20",
+        "revenue": 9196,
+        "totalCost": 7165,
+        "totalTables": 404
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-28",
+        "revenue": 5927,
+        "totalCost": 4613,
+        "totalTables": 564
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-22",
+        "revenue": 7582,
+        "totalCost": 4271,
+        "totalTables": 367
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-24",
+        "revenue": 14113,
+        "totalCost": 4347,
+        "totalTables": 401
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-11",
+        "revenue": 7394,
+        "totalCost": 8068,
+        "totalTables": 488
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-23",
+        "revenue": 10893,
+        "totalCost": 5071,
+        "totalTables": 501
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-09",
+        "revenue": 9082,
+        "totalCost": 8601,
+        "totalTables": 331
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-14",
+        "revenue": 8958,
+        "totalCost": 5764,
+        "totalTables": 307
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-08",
+        "revenue": 11465,
+        "totalCost": 8365,
+        "totalTables": 510
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-29",
+        "revenue": 10287,
+        "totalCost": 4035,
+        "totalTables": 539
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-19",
+        "revenue": 5971,
+        "totalCost": 5148,
+        "totalTables": 443
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-16",
+        "revenue": 10297,
+        "totalCost": 7668,
+        "totalTables": 572
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-27",
+        "revenue": 14997,
+        "totalCost": 7106,
+        "totalTables": 330
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-25",
+        "revenue": 7794,
+        "totalCost": 4696,
+        "totalTables": 458
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-25",
+        "revenue": 9448,
+        "totalCost": 8005,
+        "totalTables": 378
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-15",
+        "revenue": 13596,
+        "totalCost": 8213,
+        "totalTables": 329
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-01",
+        "revenue": 12652,
+        "totalCost": 7401,
+        "totalTables": 392
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-28",
+        "revenue": 8597,
+        "totalCost": 5922,
+        "totalTables": 547
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-05",
+        "revenue": 6625,
+        "totalCost": 7082,
+        "totalTables": 554
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-09",
+        "revenue": 7155,
+        "totalCost": 9787,
+        "totalTables": 346
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-02",
+        "revenue": 10707,
+        "totalCost": 6150,
+        "totalTables": 330
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-11",
+        "revenue": 7319,
+        "totalCost": 9421,
+        "totalTables": 439
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-31",
+        "revenue": 12366,
+        "totalCost": 7487,
+        "totalTables": 410
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-31",
+        "revenue": 5865,
+        "totalCost": 5109,
+        "totalTables": 406
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-22",
+        "revenue": 9795,
+        "totalCost": 9040,
+        "totalTables": 313
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-10",
+        "revenue": 12008,
+        "totalCost": 9975,
+        "totalTables": 478
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-20",
+        "revenue": 13378,
+        "totalCost": 7653,
+        "totalTables": 364
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-09",
+        "revenue": 13265,
+        "totalCost": 8998,
+        "totalTables": 379
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-18",
+        "revenue": 14233,
+        "totalCost": 5844,
+        "totalTables": 425
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-14",
+        "revenue": 5476,
+        "totalCost": 9451,
+        "totalTables": 330
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-12",
+        "revenue": 9735,
+        "totalCost": 6523,
+        "totalTables": 421
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-13",
+        "revenue": 13217,
+        "totalCost": 4955,
+        "totalTables": 537
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-07",
+        "revenue": 10752,
+        "totalCost": 5543,
+        "totalTables": 371
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-29",
+        "revenue": 10783,
+        "totalCost": 4460,
+        "totalTables": 587
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-24",
+        "revenue": 8891,
+        "totalCost": 6053,
+        "totalTables": 433
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-02",
+        "revenue": 5237,
+        "totalCost": 8394,
+        "totalTables": 551
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-24",
+        "revenue": 11875,
+        "totalCost": 8383,
+        "totalTables": 501
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-30",
+        "revenue": 12325,
+        "totalCost": 9263,
+        "totalTables": 324
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-30",
+        "revenue": 14574,
+        "totalCost": 6414,
+        "totalTables": 335
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-25",
+        "revenue": 10715,
+        "totalCost": 6365,
+        "totalTables": 503
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-13",
+        "revenue": 6843,
+        "totalCost": 9797,
+        "totalTables": 453
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-31",
+        "revenue": 11272,
+        "totalCost": 5252,
+        "totalTables": 397
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-28",
+        "revenue": 6107,
+        "totalCost": 7100,
+        "totalTables": 462
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-06",
+        "revenue": 13136,
+        "totalCost": 4213,
+        "totalTables": 565
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-13",
+        "revenue": 7217,
+        "totalCost": 5950,
+        "totalTables": 378
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-04",
+        "revenue": 11378,
+        "totalCost": 9434,
+        "totalTables": 568
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-15",
+        "revenue": 9403,
+        "totalCost": 5003,
+        "totalTables": 501
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-16",
+        "revenue": 9003,
+        "totalCost": 4619,
+        "totalTables": 470
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-05",
+        "revenue": 11836,
+        "totalCost": 7105,
+        "totalTables": 410
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-28",
+        "revenue": 6609,
+        "totalCost": 4865,
+        "totalTables": 486
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-18",
+        "revenue": 7761,
+        "totalCost": 4490,
+        "totalTables": 525
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-05",
+        "revenue": 8006,
+        "totalCost": 6430,
+        "totalTables": 308
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-09",
+        "revenue": 7363,
+        "totalCost": 6355,
+        "totalTables": 321
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-27",
+        "revenue": 8039,
+        "totalCost": 5223,
+        "totalTables": 540
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-06",
+        "revenue": 7489,
+        "totalCost": 6333,
+        "totalTables": 471
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-21",
+        "revenue": 9695,
+        "totalCost": 6301,
+        "totalTables": 303
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-30",
+        "revenue": 9396,
+        "totalCost": 4156,
+        "totalTables": 539
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-05",
+        "revenue": 5293,
+        "totalCost": 8418,
+        "totalTables": 354
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-23",
+        "revenue": 5621,
+        "totalCost": 4452,
+        "totalTables": 483
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-06",
+        "revenue": 14857,
+        "totalCost": 9319,
+        "totalTables": 368
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-29",
+        "revenue": 8436,
+        "totalCost": 5688,
+        "totalTables": 567
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-24",
+        "revenue": 9405,
+        "totalCost": 9504,
+        "totalTables": 357
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-28",
+        "revenue": 8013,
+        "totalCost": 4449,
+        "totalTables": 544
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-12",
+        "revenue": 7016,
+        "totalCost": 4685,
+        "totalTables": 538
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-12",
+        "revenue": 6126,
+        "totalCost": 9868,
+        "totalTables": 422
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-04",
+        "revenue": 7359,
+        "totalCost": 9975,
+        "totalTables": 369
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-03",
+        "revenue": 9144,
+        "totalCost": 9178,
+        "totalTables": 409
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-03",
+        "revenue": 12145,
+        "totalCost": 7063,
+        "totalTables": 561
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-03",
+        "revenue": 14083,
+        "totalCost": 4302,
+        "totalTables": 496
+    },
+    {
+        "name": "The Asgard",
+        "reportDate": "2018-12-12",
+        "revenue": 8236,
+        "totalCost": 8998,
+        "totalTables": 388
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-05",
+        "revenue": 10713,
+        "totalCost": 5017,
+        "totalTables": 363
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-19",
+        "revenue": 11403,
+        "totalCost": 9145,
+        "totalTables": 417
+    },
+    {
+        "name": "Thelonious Monkfish",
+        "reportDate": "2018-12-08",
+        "revenue": 7973,
+        "totalCost": 6309,
+        "totalTables": 368
+    },
+    {
+        "name": "Phoenix Landing",
+        "reportDate": "2018-12-07",
+        "revenue": 9133,
+        "totalCost": 8083,
+        "totalTables": 532
+    },
+    {
+        "name": "Taven 730",
+        "reportDate": "2018-12-29",
+        "revenue": 5671,
+        "totalCost": 9377,
+        "totalTables": 436
+    },
+    {
+        "name": "ABC Pizza",
+        "reportDate": "2018-12-18",
+        "revenue": 12958,
+        "totalCost": 5091,
+        "totalTables": 499
+    }
+]
