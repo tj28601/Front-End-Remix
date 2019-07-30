@@ -13,6 +13,29 @@
 </head>
 <body>
 
+<div class="container mt-4">
+  <div class="row">
+    <div class="col">
+      <button id="button"
+              class="text-light bg-dark">
+        Reset
+      </button>
+      <button id="button"
+              class="text-light bg-dark">
+        Filter By Restaurant
+      </button>
+      <button id="button"
+              class="text-light bg-dark">
+        Filter By Date
+      </button>
+      <button id="button"
+              class="text-light bg-dark">
+        Change Y-Axis
+      </button>
+    </div>
+  </div>
+</div>
+
 <div class="container">
     <div class="row">
         <div class="col-12">
@@ -79,13 +102,14 @@
 
 <script>
 $(document).ready(function(){
-
     $.getJSON("api.json")
     .then(response => {
         const metric = new Metric(response);
 
         // #1 calculateProfit
-        const noProfit = metric.data.filter(f => isNaN(f.profit));
+
+        const noProfit = metric.data.filter((f) => isNaN(f.profit));
+
         if(noProfit.length){
             $("#calculateProfit")
                 .html("1 or more data points have no profit. calculateProfit probably isn't working.")
@@ -128,9 +152,16 @@ $(document).ready(function(){
             }
         });
 
-
         // #4 filter
-        const filterResult = metric.filter(point => this.reportDate === "2018-12-01");
+
+        // const filterResult = metric.filter(point => this.reportDate === "2018-12-01");
+
+        //^^I believe the code originally may have been like the commented out code above.
+        // I was able to see that filteredResult code below appeared to work in my JS console,
+        // but I'm pretty sure that this is still wrong.
+
+        const filterResult = new Metric(metric.data.filter(point => point.reportDate === "2018-12-01"));
+
         if(filterResult == null){
             $("#filter")
                 .html("filter is returning null. filter probably not working.")
